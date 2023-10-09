@@ -2,8 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type="text"]:focus ~ .input-text{
-    @apply text-black bg-white transform -translate-y-7 
-    transform -translate-x-[-10px]
-}
 

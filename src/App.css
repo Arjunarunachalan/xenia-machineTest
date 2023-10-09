@@ -1,0 +1,9 @@
+/* Define a CSS class for the fade-in animation */
+.modal-fade-enter {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal-fade-enter-active {
+  opacity: 1;
+}
