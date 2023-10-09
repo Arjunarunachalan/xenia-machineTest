@@ -13,7 +13,6 @@ import user_name_two  from "../assets/loginAssets/user name  mobile no.1.svg"
 import Welcome from "../assets/loginAssets/Welcome.svg"
 import PasswordLogo from "../assets/loginAssets/Group 216.svg"
 import PasswordLog from "../assets/loginAssets/Group 218.svg"
-import TickMArk from "../assets/loginAssets/icon ionic-ios-checkbox.svg"
 import ProfileIcon from "../assets/loginAssets/path 560.svg"
 
 
@@ -69,7 +68,7 @@ function App() {
          </div>
          <div className="flex justify-between gap-8 mb-4">
            <div className="flex">
-             <img src={TickMArk} alt="checkboc" />
+            <input type="checkbox" className='bg-blue-500 mr-1' />
              <img src={Remember} alt="remeber me" />
            </div>
            <div>
